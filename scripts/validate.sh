@@ -10,8 +10,8 @@ command -v magick >/dev/null || {
 }
 
 mapfile -d '' files < <(find "$dist_dir" -type f -name '*.png' -print0 | sort -z)
-[[ ${#files[@]} -eq 48 ]] || {
-  echo "Error: expected 48 PNG files, found ${#files[@]}." >&2
+[[ ${#files[@]} -eq 60 ]] || {
+  echo "Error: expected 60 PNG files, found ${#files[@]}." >&2
   exit 1
 }
 
@@ -34,4 +34,4 @@ for file in "${files[@]}"; do
   }
 done
 
-echo "Validation passed: 48 readable PNGs, correct dimensions, alpha preserved."
+echo "Validation passed: 60 readable PNGs, correct dimensions, alpha preserved."

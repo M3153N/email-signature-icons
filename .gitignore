@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+__pycache__/
+*.py[cod]
+
+# Local working originals; normalized publication copies live in source/.
+B4 Style Dark/
+B4 Style Light/
+Baseline/

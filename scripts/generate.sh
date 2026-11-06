@@ -15,7 +15,7 @@ rm -rf "$dist_dir"
 mkdir -p "$preview_dir"
 
 styles=(baseline b4-dark b4-light)
-sizes=(16 20 24 32 48)
+sizes=(16 20 24 32 40 48)
 icons=(b4 linkedin mail whatsapp)
 
 for style in "${styles[@]}"; do
@@ -54,8 +54,8 @@ for style in "${styles[@]}"; do
   done
 done
 
-magick montage "${tiles[@]}" -tile 4x15 -geometry +4+4 \
+magick montage "${tiles[@]}" -tile 4x18 -geometry +4+4 \
   -background '#dfe3e7' "$preview_dir/contact-sheet.png"
 rm -f "${tiles[@]}"
 
-echo "Generated 60 icons and preview/contact-sheet.png"
+echo "Generated 72 icons and preview/contact-sheet.png"

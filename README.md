@@ -6,8 +6,8 @@ PNG icons prepared for professional email signatures, including Gmail. The repos
 
 - Styles: `baseline`, `b4-dark`, and `b4-light`
 - Icons: `b4.png`, `linkedin.png`, `mail.png`, and `whatsapp.png`
-- Pixel sizes: 16×16, 20×20, 24×24, 32×32, and 48×48
-- Output: `dist/<style>/<size>/<icon>.png` (60 PNGs total)
+- Pixel sizes: 16×16, 20×20, 24×24, 32×32, 40×40, and 48×48
+- Output: `dist/<style>/<size>/<icon>.png` (72 PNGs total)
 - Originals used for regeneration: `source/<style>/<icon>.png`
 - Visual review sheet: `preview/contact-sheet.png`
 
